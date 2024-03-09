@@ -16,6 +16,7 @@ header{
 header h1{
     color: blueviolet;
     font-size: 30px;
+    padding-left: 20px;
 }
 nav{
     display: flex;
