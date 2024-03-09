@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:10vh;
+    padding:0 100px;
+}
+header h1{
+    color: blueviolet;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+header nav a{ 
+    color: black;
+    text-decoration:none;
+}
+nav .link-btn{
+    color: blueviolet;
+    border:2px solid blueviolet;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height:80vh;
+    padding:0 100px;
+}
+main img{
+    height:90%;
+}
+main .left{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+}
+ 
+.left h1{
+    font-size: 35px;
+    font-weight: 300;
+}
+.left ul li i{
+    color: blueviolet;
+}
+.buttons button{
+    width:160px;
+    height:50px;
+    border: none;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+}
+.buttons .request{
+    background:none;
+    color: blueviolet;
+    border:2px solid blueviolet;
+    border-radius: 30px;
+}
+.left ul{
+    list-style: none;
+}
+ul li{
+    padding:5px;
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 100px;
+    background-color: #f2f2f2;
+}
+footer .left p{
+   
+    letter-spacing: 2px;
+}
+
+footer .social{
+    display: flex;
+    gap:10px;
+} 
+footer .social span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width:50px;
+    height:50px; 
+    background-color: darkgray;
+   
+}
+footer .social span i{
+    font-size: 20px;
+}
+footer .footer-left .name{
+    color: blueviolet;
+}
