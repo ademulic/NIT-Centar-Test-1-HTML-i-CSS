@@ -106,13 +106,13 @@ footer .social span{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width:50px;
-    height:50px; 
+    width:35px;
+    height:35px; 
     background-color: darkgray;
    
 }
 footer .social span i{
-    font-size: 20px;
+    font-size: 15px;
 }
 footer .footer-left .name{
     color: blueviolet;
